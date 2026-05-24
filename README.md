@@ -32,9 +32,9 @@ O design, a arquitetura de informação e a usabilidade do Conecta Singular fora
 
 O projeto foi construído puramente com tecnologias web fundamentais (Vanilla), garantindo leveza, rapidez no carregamento e facilidade de suporte técnico:
 
-*   **HTML5**: Estruturação semântica de todas as páginas.
-*   **CSS3**: Estilização moderna, responsividade para dispositivos móveis e design adaptado para acessibilidade cognitiva.
-*   **JavaScript (ES6)**: Lógica de interação nas páginas de vagas, perfil, login e cadastro.
+*   **HTML**: Estruturação semântica de todas as páginas.
+*   **CSS**: Estilização moderna, responsividade para dispositivos móveis e design adaptado para acessibilidade cognitiva.
+*   **JavaScript**: Lógica de interação nas páginas de vagas, perfil, login e cadastro.
 
 ---
 
