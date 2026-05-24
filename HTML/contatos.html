@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Conecta Singular - Contatos</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/contatos.css">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="pagina-contatos">
+
+    <!-- ================= MENU ================= -->
+
+    <nav>
+
+        <ul class="menu">
+
+            <li class="logo">
+                <a href="index.html">
+                    <img src="images/logo-home.png" alt="Logo Conecta Singular">
+                </a>
+            </li>
+
+            <li><a class="botao1" href="index.html">INÍCIO</a></li>
+
+            <li><a class="botao2" href="vagas.html">VAGAS</a></li>
+
+            <li><a class="botao3" href="sobreoprojeto.html">SOBRE O PROJETO</a></li>
+
+            <li><a class="botao4" href="empresasparceiras.html">EMPRESAS PARCEIRAS</a></li>
+
+
+            <li>
+                <a class="botao-entrar" href="login.html">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    ENTRAR
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- ================= BANNER ================= -->
+
+    <section class="banner-contatos">
+
+        <h1 class="titulo-banner">
+            Central de Atendimento
+        </h1>
+
+        <p class="texto-banner">
+            Estamos disponíveis para ajudar você com dúvidas, sugestões,
+            elogios e suporte.
+        </p>
+
+    </section>
+
+    <!-- ================= CONTATOS ================= -->
+
+    <section class="secao-contatos">
+
+        <div class="container-contatos">
+
+            <!-- CARD EMAIL -->
+
+            <article class="card-contato card-azul">
+
+                <i class="fa-solid fa-envelope icone-contato"></i>
+
+                <h2>E-mail</h2>
+
+                <p>contato@conectasingular.com</p>
+
+            </article>
+
+            <!-- CARD TELEFONE -->
+
+            <article class="card-contato card-verde">
+
+                <i class="fa-solid fa-phone icone-contato"></i>
+
+                <h2>Telefone</h2>
+
+                <p>(11) 4002-8922</p>
+
+            </article>
+
+            <!-- CARD WHATSAPP -->
+
+            <article class="card-contato card-amarelo">
+
+                <i class="fa-brands fa-whatsapp icone-contato"></i>
+
+                <h2>WhatsApp</h2>
+
+                <p>(11) 984583-7017</p>
+
+            </article>
+
+            <!-- CARD LOCAL -->
+
+            <article class="card-contato card-vermelho">
+
+                <i class="fa-solid fa-location-dot icone-contato"></i>
+
+                <h2>Endereço</h2>
+                <p>Cep:04582-200</p>
+                <p>Rua das Flores, 284</p>
+                <p>São Paulo - SP</p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- ================= OUVIDORIA ================= -->
+
+    <section class="secao-ouvidoria">
+
+        <div class="container-ouvidoria">
+
+            <h2 class="titulo-ouvidoria">
+                Ouvidoria Conecta Singular
+            </h2>
+
+            <p class="texto-ouvidoria">
+                Envie dúvidas, sugestões, reclamações ou elogios.
+                Sua mensagem é importante para melhorarmos nossa plataforma.
+            </p>
+
+            <div class="telefone-ouvidoria">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <span>0800 123 4567</span>
+
+            </div>
+
+            <!-- FORMULÁRIO -->
+
+            <form class="form-ouvidoria">
+
+                <div class="grupo-input">
+
+                    <label for="nome">
+                        Nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+
+                </div>
+
+                <div class="grupo-input">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+
+                </div>
+
+                <div class="grupo-input">
+
+                    <label for="tipo">
+                        Tipo de mensagem
+                    </label>
+
+                    <select id="tipo">
+
+                        <option>Dúvida</option>
+                        <option>Sugestão</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+
+                    </select>
+
+                </div>
+
+                <div class="grupo-input">
+
+                    <label for="mensagem">
+                        Mensagem
+                    </label>
+
+                    <textarea
+                        id="mensagem"
+                        rows="6"
+                        placeholder="Digite sua mensagem..."
+                    ></textarea>
+
+                </div>
+
+                <button type="submit" class="botao-enviar">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Enviar Mensagem
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="rodape-contatos">
+
+        <div class="rodape-conteudo">
+
+            <p>
+                &copy; 2026 Conecta Singular. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
